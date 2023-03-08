@@ -1,0 +1,49 @@
+.category-container {
+  display: flex;
+  margin: 15px 50px;
+  justify-content: space-around;
+  background-color: orange;
+  border-radius: 10px;
+  height: 12%;
+  align-items: center;
+  text-align: center;
+}
+
+.Reaction {
+  background-color: hsl(0, 100%, 67%, 0.05);
+  color: hsl(0, 100%, 67%);
+}
+
+.Memory {
+  background-color: hsl(39, 100%, 56%, 0.05);
+  color: hsl(39, 100%, 56%);
+}
+.Verbal {
+  background-color: hsl(166, 100%, 37%, 0.05);
+  color: hsl(166, 100%, 37%);
+}
+.Visual {
+  background-color: hsl(234, 85%, 45%, 0.05);
+  color: hsl(234, 85%, 45%);
+}
+
+img {
+  margin-right: -50px;
+}
+
+.category-score-container {
+  color: grey;
+}
+
+.category-score {
+  color: black;
+  font-size: 18px;
+}
+
+@media only screen and (min-device-width: 375px) and (max-device-width: 667px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: portrait) {
+  .category-container {
+    height: 10%;
+    margin: 10px 0 10px 20px;
+    width: 90%;
+  }
+}
